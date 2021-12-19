@@ -25,9 +25,22 @@
 .home__header__right {
   display: flex;
   align-items: center;
+  min-width: 13vw;
   justify-content: space-between;
 }
 
 .home__header__right > .MuiSvgIcon-root {
   margin-right: 20px;
+}
+
+.home__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+.home__body > img {
+  object-fit: contain;
+  height: 100px;
 }

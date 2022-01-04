@@ -10,7 +10,7 @@ import ROUTES from "../../../routes";
 import { actionTypes } from "../../../Reducer";
 
 const SearchBar = ({ hideButtons = false }) => {
-  const [state, dispatch] = useStateValue();
+  const [{}, dispatch] = useStateValue();
 
   const [inputText, setInputText] = useState("");
   const history = useHistory();
